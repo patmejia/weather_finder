@@ -2,6 +2,10 @@
 
 The Weather Finder is a Python script that retrieves the current weather of each city listed in a provided CSV file using the OpenWeatherMap API. It prints a running list of JSONs for each city in the console and saves the city names and temperatures in a new CSV file.
 
+
+<img width="320" alt="Screen Shot 2023-03-09 at 8 22 04 PM" src="https://user-images.githubusercontent.com/92187562/224207378-a6f0de9c-6dbd-4f66-8796-ee3cde16a2f2.png">
+
+
 ## Dependencies
 
 The Weather Finder requires the following dependencies:
