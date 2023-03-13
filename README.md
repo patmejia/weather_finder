@@ -50,7 +50,7 @@ If you would like to contribute to the Weather Finder project, please fork the r
 1. User Input Validation: Currently, the program assumes that the provided CSV file is correctly formatted and that the API key is valid. In the future, input validation could be implemented to handle cases where the input is incorrect or incomplete.
 1. Error Handling: The program currently prints error messages to the console when an error occurs, but does not handle errors gracefully or provide specific information on what went wrong. In the future, more robust error handling could be implemented to provide users with more useful feedback.
 1. Additional Functionality: Currently, the Weather Finder only retrieves and saves the temperature data for each city. In the future, additional weather data, such as wind speed or precipitation, could also be retrieved and saved to the CSV file.
-1. Advanced Search Parameters: The program could be expanded to allow users to specify their preferred temperature unit (e.g. Celsius, Fahrenheit or Kelvin) or to provide more advanced search parameters, such as time ranges, weather conditions or [geodetic coordinates]([https://medium.com/p/e418a23db95b](https://patimejia.medium.com/mapping-the-world-e418a23db95b)), to retrieve more specific weather data.
+1. Advanced Search Parameters: The program could be expanded to allow users to specify their preferred temperature unit (e.g. Celsius, Fahrenheit or Kelvin) or to provide more advanced search parameters, such as time ranges, weather conditions or [geodetic coordinates](https://patimejia.medium.com/mapping-the-world-e418a23db95b), to retrieve more specific weather data.
 
 ## License
 
