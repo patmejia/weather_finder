@@ -1,2 +1,6 @@
-pytest
 requests
+json
+csv
+typing
+pytest
+
