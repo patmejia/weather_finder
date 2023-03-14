@@ -40,6 +40,14 @@ These packages are listed in the `setup/requirements.txt` file in the root direc
 pip install -r setup/requirements.txt
 ```
 
+## `input.csv` example
+
+![input_csv](input.png)
+
+## `output.csv` example
+
+![output_to_console](console.png)
+
 ## Testing
 
 The Weather Finder uses `pytest` as a testing framework. To run the tests, make sure `pytest` is installed (you can install it by running `pip install pytest` in the terminal), then run `pytest` in the terminal from the root directory of this project:
