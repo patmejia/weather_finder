@@ -51,4 +51,21 @@ if __name__ == "__main__":
         weather_data = get_city_weather(city, api_key)
         temperature = weather_data["main"]["temp"]
         city_temperatures[city] = temperature
+
+
+# Print city name and temperature to console with color and emoji
+    for city, temperature in city_temperatures.items():
+        if temperature < 50:
+            color = "\033[94m"  # blue
+            emoji = "🧊"
+        elif temperature < 70:
+            color = "\033[92m"  # green
+            emoji = "🌱"
+        else:
+            color = "\033[91m"  # red
+            emoji = "♨️"
+        print(f"{city:<20} {color}{temperature:>5.1f}°F {emoji}\033[0m")
+
+
+    # Write to CSV file    
     write_to_csv(city_temperatures, "output/output.csv")
