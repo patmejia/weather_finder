@@ -57,14 +57,15 @@ if __name__ == "__main__":
     for city, temperature in city_temperatures.items():
         if temperature < 50:
             color = "\033[94m"  # blue
-            emoji = "🧊"
+            emoji = "🥶"
         elif temperature < 70:
             color = "\033[92m"  # green
             emoji = "🌱"
         else:
             color = "\033[91m"  # red
-            emoji = "♨️"
-        print(f"{city:<20} {color}{temperature:>5.1f}°F {emoji}\033[0m")
+            emoji = "🥵"
+        print(f"{city:<20}{color}{emoji}{temperature:>5.1f}°F {emoji} \033[0m")
+
 
 
     # Write to CSV file    
