@@ -8,9 +8,7 @@ The Weather Finder is a command-line tool that retrieves the current weather of 
 
 ## Running the Weather Finder
 
-<!-- insert weather_wiki.gif -->
-
-![weather_wiki](weather_wiki.gif)
+![weather_wiki](assets/weather_wiki.gif)
 
 Run the Weather Finder by executing the following command:
 
@@ -42,11 +40,11 @@ pip install -r setup/requirements.txt
 
 ## `input.csv` example
 
-![input_csv](input.png)
+![input_csv](assets/input.png
 
 ## `output.csv` example
 
-![output_to_console](console.png)
+![output_to_console](assets/console.png)
 
 ## Testing
 
