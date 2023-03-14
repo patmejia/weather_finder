@@ -40,11 +40,11 @@ pip install -r setup/requirements.txt
 
 ## `input.csv` example
 
-![input_csv](assets/input.png
+![input_csv_image](assets/input.png)
 
 ## `output.csv` example
 
-![output_to_console](assets/console.png)
+![output_to_console_image](assets/console.png)
 
 ## Testing
 
