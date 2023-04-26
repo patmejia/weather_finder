@@ -1,7 +1,6 @@
 # Weather Finder
 
-![DALL·E 2023-03-09 20 38 27 -  digital illustration that represents the Weather Finder program  The artwork should feature elements such as cityscapes or landscapes of different ci](https://user-images.githubusercontent.com/92187562/224209208-702669c9-9283-45e8-95bc-f266496803c5.png)
-
+![weather_gurus](assets/Screenshot%202023-04-26%20at%2012.47.04%20AM.png)
 The Weather Finder is a command-line tool that retrieves the current weather of each city listed in a provided CSV file using the OpenWeatherMap API. It prints a running list of JSONs for each city in the console and saves the city names and temperatures in a new CSV file: `\setup\output.csv`.
 
 > For a brief introduction to geodetic coordinates and how they relate to mapping the world, check out our blog post [Mapping the World: Geodetic and Euclidean Coordinates](https://patimejia.medium.com/mapping-the-world-e418a23db95b).
@@ -69,7 +68,6 @@ After you generate your API key, you can add it to the Weather Finder by replaci
 If you would like to contribute to the Weather Finder project, please fork the repository and submit a pull request. We welcome contributions of all kinds, including bug fixes, new features, and documentation.
 
 ## Roadmap
-
 
 1. ✅ Created the `get_api_key()` function to read an API key from a file.
 1. ✅ Created the `read_csv_file()` function to read a list of cities from a CSV file.
